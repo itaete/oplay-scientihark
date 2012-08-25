@@ -1,6 +1,6 @@
-﻿现在版本：Build 2012072176 Pre Alpha V0.12
+﻿现在版本：Build 2012082534 Pre Alpha V0.13
 
-Now version：Build 2012072176 Pre Alpha V0.12
+Now version：Build 2012082534 Pre Alpha V0.13
 =======================================================================
 简介：
 	Oplay,是一款由HTML5+JS编写的音乐播放器，目前支持：
@@ -13,6 +13,7 @@ Now version：Build 2012072176 Pre Alpha V0.12
 		节奏分析 （Chrome、 MP3/FLAC  AAC/ALAC时不可用）
 		多彩换肤
 		全屏支持
+		PHP跨域proxy支持
 	当然，目前播放器还在Pre Alpha，因此还有很多改进空间哦
 	另外，由于是初学者，这个播放器90%核心由我自己编写，
 	因此代码比较混乱，请多多指教。
@@ -31,6 +32,7 @@ description：
 		beat detektor	(not working on chrome and MP3/FLAC/AAC/ALAC)
 		colorful skin
 		full screen support
+		PHP crossdomain proxy support
 	Ofcourse，the player is on its Pre Alpha now，
 	So,its not done yet~~~
 	otherwise，cause i'm a newbie and a student，About 90 percent 
@@ -117,6 +119,10 @@ Build 2012072176 Pre Alpha V0.12
 	--添加FLAC/MP3/AAC/ALAC解码支持，费了老半天，用了Aurora.js实现纯JS解码播放（支持MOZ/CHROME）
 	--添加了MP3作为实例，前面几首英文歌和主题曲都是MP3的。后面魔兽世界的部分音乐用的Flac.欢迎测试。
 
+Build 2012082534 Pre Alpha V0.13
+
+	--添加PHP跨域支持，现在可以播放网络音乐（需要支持php）
+
 
 						by scientihark
 ========================================================================
@@ -158,7 +164,9 @@ Build 2012072176 Pre Alpha V0.12
 	--add FLAC/MP3/AAC/ALAC decoding，It's a hard work，I used Aurora.js and get pure JS decoding（support MOZ/CHROME）
 	--add MP3 files as example，the English songs and the oplay loop are in MP3 from。some WOW stuffs are in Flac.so,go and have a try!
 
+Build 2012082534 Pre Alpha V0.13
 
+	--add PHP crossdomain proxy support，now you can play music on other site.（need php）
 						by scientihark
 ============================================================================
 ============================================================================
@@ -195,7 +203,7 @@ IE目前
 
 safari 我的safari挂了，木有测.不过webkit应该和chrome差不多
 
-目前有纯js的mp3,flac,alac,aac,wav解码器，但是太复杂，暂时木有用。
+
 ===========================================================================
 ============================================================================
 Currently known：
@@ -235,6 +243,4 @@ IE目前
 
 safari:
 	my safari crashed，so I haven't test yet.but I think it may be same as chrome
-
-Now there are mp3,flac,alac,aac,wav decoder in pure javascript ，but it's a little difficult。
 ===========================================================================
